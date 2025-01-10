@@ -6,6 +6,7 @@ import Flex from './Components/Flex'
 import Main from './Components/Main'
 import Step from './Components/Step'
 import Features from './Components/Features'
+import Footer from './Components/Footer'
 
 const App = () => {
   const [isMobile,setisMobile] = useState(false)
@@ -21,6 +22,7 @@ const App = () => {
       <Step/>
 
       <Features/>
+      <Footer/>
 
 
     </div>
